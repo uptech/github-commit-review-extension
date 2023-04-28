@@ -3,6 +3,10 @@
   "name": "Github Commit Review Extension",
   "version": "1.0.0",
   "description": "This is a browser extension to mark commits in github as read or reviewed utilizing git refs as the persistence layer.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "src/popup/index.html"
+  },
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
