@@ -10,20 +10,22 @@
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.16",
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
-    "@tsconfig/svelte": "^4.0.1",
-    "svelte": "^3.57.0",
-    "svelte-check": "^2.10.3",
-    "tslib": "^2.5.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.3.2",
-    "postcss": "^8.4.14",
-    "postcss-load-config": "^4.0.1",
-    "svelte-preprocess": "^5.0.3",
-    "autoprefixer": "^10.4.7",
-    "tailwindcss": "^3.1.5",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.3",
-    "daisyui": "^2.18.1"
+    "@tsconfig/svelte": "^4.0.1",
+    "@types/chrome": "^0.0.233",
+    "autoprefixer": "^10.4.7",
+    "daisyui": "^2.18.1",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.57.0",
+    "svelte-check": "^2.10.3",
+    "svelte-preprocess": "^5.0.3",
+    "tailwindcss": "^3.1.5",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
   }
 }
