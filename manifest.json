@@ -2,5 +2,11 @@
   "manifest_version": 3,
   "name": "Github Commit Review Extension",
   "version": "1.0.0",
-  "description": "This is a browser extension to mark commits in github as read or reviewed utilizing git refs as the persistence layer."
+  "description": "This is a browser extension to mark commits in github as read or reviewed utilizing git refs as the persistence layer.",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://github.com/*/*/commit/*"]
+    }
+  ]
 }
